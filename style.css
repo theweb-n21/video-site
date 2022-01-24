@@ -18,6 +18,26 @@ img {
 .sidebar::-webkit-scrollbar {
     width: 0px;
 }
+/* mobile nav bar */
+nav.mobile-navbar {
+    position: static;
+    display: none;
+  
+}
+nav.mobile-navbar a{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav.mobile-navbar a img{
+    width: 20px;
+}
+nav.mobile-navbar a p{
+    font-size: 10px;
+    text-align: center;
+}
+
 
 nav {
     display: flex;
@@ -255,6 +275,13 @@ input.search-input {
 }
 
 @media (max-width:425px) {
+    nav.mobile-navbar{
+        display: block;
+        display: flex;
+    }
+    mobile-navbar{
+        display: block;
+    }
     img.menu-icon {
         display: none;
 
