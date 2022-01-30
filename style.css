@@ -126,6 +126,9 @@ input.search-input {
     padding-left: 2%;
     padding-top: 80px;
     overflow-y: scroll;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
 
 }
 
