@@ -127,8 +127,9 @@ input.search-input {
     padding-top: 80px;
     overflow-y: scroll;
     transition-property: width;
-    transition-duration: 1s;
-    transition-timing-function: ease-in;
+    transition-duration: 2s;
+
+    
 
 }
 
@@ -183,6 +184,9 @@ input.search-input {
 
 .small-sidebar {
     width: 5%;
+    
+    transition-property: width;
+    transition-duration: 2s;
 
 }
 
